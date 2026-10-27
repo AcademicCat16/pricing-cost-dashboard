@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "project": "Phase 1 - Mission 1: Competitive Pricing Research",
+    "date_compiled": "2026-10-27",
+    "currency": "USD",
+    "verification_categories": {
+      "Verified": "Directly confirmed on an official product or pricing page or another authoritative primary source.",
+      "Partially Verified": "Found on a relevant retailer, listing, or search-results page but not fully confirmed on the product page.",
+      "Estimated": "An explicitly identified estimate rather than a directly observed listed price.",
+      "Unavailable": "No reliable public price could be established."
+    }
+  },
+  "venture": {
+    "venture_name": "Jewelry / Journey (working concept name)",
+    "founder": "Sarah Bielski",
+    "business_concept": "A compact travel jewelry organizer designed to protect jewelry, reduce tangling, and simplify packing. Mission: help travelers protect, organize, and easily access their jewelry with a compact, reliable organizer designed to reduce tangling.",
+    "primary_product": "Book-style travel jewelry organizer with separate necklace lanes (snap-close loops on both sides of each chain, repeated along its length), a pendant pocket, dedicated bracelet storage, protected earring sections (studs & drops), and a page for hoops & bangles.",
+    "target_customers": "Primary: U.S. adult jewelry wearers, initially women ages 18-54 with discretionary income, who pack jewelry for vacations, weddings, weekend trips, or business travel and compare reviews, price, size, and durability before buying. Secondary: gift buyers.",
+    "customer_needs": [
+      "Separated, tangle-free necklaces",
+      "Secure storage and closures that do not break",
+      "Easy loading and access",
+      "Space-saving packing",
+      "Room for different jewelry sizes, including long necklaces and larger bangles"
+    ],
+    "value_proposition": "Less untangling, more exploring: whole-chain necklace support and closures prioritized for durability (repeated snap testing), addressing competitor pain points such as faulty snaps, small pockets, and poor fit for long necklaces.",
+    "differentiation": [
+      "Necklace supports repeated along the whole chain (not a single hook)",
+      "Adjustable spacing for different necklace lengths",
+      "Closure durability as a stated development priority",
+      "Dedicated sections for necklaces, bracelets, studs/drops, and hoops/bangles"
+    ],
+    "geographic_market": "United States, online; initial demand tests in selected states (founder's Census analysis highlights California, Texas, and Florida) before expansion.",
+    "distribution_channels": "Online (U.S. online shoppers). ASSUMPTION: specific channels (own website vs. Amazon/marketplaces) are not stated in the workspace; the founder's consumer research used Amazon reviews, suggesting marketplace relevance.",
+    "relevant_features": [
+      "Necklace lanes with snap-close loops on both sides",
+      "Pendant pocket",
+      "Bracelet storage",
+      "Earring sections (studs & drops)",
+      "Hoops & bangles page",
+      "Compact, book-style format"
+    ],
+    "competitive_environment": "Established brands, inexpensive marketplace alternatives, easily copied designs, and basic zip/velvet pouches that customers already own.",
+    "status_notes": "Concept stage. Product website states materials, dimensions, price, and performance are still being tested. No price has been set.",
+    "sources": [
+      "Marketing Venture Workspace document (Sarah Bielski.docx)",
+      "https://sarahbielski.github.io/Creative-Website/"
+    ]
+  },
+  "competitors": [
+    {
+      "competitor_id": "C01",
+      "name": "Lolalet",
+      "classification": "Direct",
+      "website": "https://www.amazon.com/dp/B0GDXTQCJW",
+      "website_note": "Sold through the Lolalet Store on Amazon; no separate official brand website was confirmed during this research.",
+      "geographic_market": "United States (Amazon.com)",
+      "target_customers": "Budget-conscious travelers and gift buyers who own several necklaces",
+      "main_products": "Foldable travel necklace organizer (12 slots)",
+      "positioning": "Budget",
+      "differentiators": "12 snap hooks plus elastic strap and clear pendant pocket ('triple-secure'); PU leather with velvet lining; folds to 5.7 x 10.43 in.",
+      "reason_for_inclusion": "The competing product the founder already researched (80 Amazon reviews; 7 reported faulty snaps). Its necklace-specific snap design is the closest functional benchmark to the venture."
+    },
+    {
+      "competitor_id": "C02",
+      "name": "BAGSMART",
+      "classification": "Direct",
+      "website": "https://www.bagsmart.com",
+      "website_note": "Also widely sold on Amazon.",
+      "geographic_market": "United States and international (USD storefront; site lists 3-4 business day average U.S. delivery)",
+      "target_customers": "Value-seeking travelers wanting organized travel accessories",
+      "main_products": "Travel organizers incl. three jewelry organizers (Dazzling, Peri Folding, Crush)",
+      "positioning": "Budget to lower mid-market",
+      "differentiators": "Broad travel-organizer line; frequent markdowns from compare-at prices; multiple formats (binder-style, folding, structured case).",
+      "reason_for_inclusion": "Well-known value travel-accessory brand with several jewelry organizers at prices near the budget end; represents the low-price, promotion-driven alternative."
+    },
+    {
+      "competitor_id": "C03",
+      "name": "BÉIS",
+      "classification": "Direct",
+      "website": "https://beistravel.com",
+      "website_note": "",
+      "geographic_market": "United States (USD storefront); also sold through retailers",
+      "target_customers": "Style-conscious women travelers (lifestyle travel brand)",
+      "main_products": "The Jewelry Case (4 colors), part of a travel bag and accessory line",
+      "positioning": "Mid-market / lifestyle brand",
+      "differentiators": "Brand-led design; made from recycled plastic bottles; fits inside BÉIS Cosmetic Organizer; 45-day returns; TSA-approved claim.",
+      "reason_for_inclusion": "Popular lifestyle travel brand targeting a similar female traveler segment; sets a branded mid-market reference point."
+    },
+    {
+      "competitor_id": "C04",
+      "name": "Mark & Graham",
+      "classification": "Direct",
+      "website": "https://www.markandgraham.com",
+      "website_note": "Williams-Sonoma, Inc. brand.",
+      "geographic_market": "United States",
+      "target_customers": "Gift buyers and customers seeking personalized, monogrammed accessories",
+      "main_products": "Travel jewelry cases in several sizes, rolls, and organizers; personalization add-on",
+      "positioning": "Premium / personalized gifting",
+      "differentiators": "Monogramming (foil-debossed or printed) for $17; gift wrapping; many sizes and colors; frequent sale/clearance items.",
+      "reason_for_inclusion": "Represents the gifting and personalization opportunity named in the venture's SWOT; its Medium case uses looped clips for necklaces."
+    },
+    {
+      "competitor_id": "C05",
+      "name": "Monos",
+      "classification": "Indirect",
+      "website": "https://monos.com",
+      "website_note": "",
+      "geographic_market": "United States and Canada (USD storefront checked)",
+      "target_customers": "Design-focused, minimalist travelers (premium luggage brand)",
+      "main_products": "Travel Jewelry Case (modular), within a premium luggage line",
+      "positioning": "Premium",
+      "differentiators": "Modular removable earring and ring panels; removable mini pouch; water- and scratch-resistant vegan leather.",
+      "reason_for_inclusion": "Premium luggage-brand alternative. Classified indirect because it is built around earrings/rings and does not provide dedicated necklace separation (necklaces hang over the earring panel). Both colors were out of stock when checked."
+    }
+  ],
+  "pricing_offers": [
+    {
+      "offer_id": "P01",
+      "competitor_id": "C01",
+      "product_name": "Lolalet Travel Necklace Organizer, Foldable Jewelry Case (12 Slots)",
+      "description": "Foldable PU-leather necklace organizer with velvet/PVC lining; 12 snap hooks, elastic strap, clear pendant pocket.",
+      "pricing_model": "One-time purchase",
+      "current_price": 18.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "12 snap hooks",
+        "Elastic strap",
+        "Clear pendant/bottom pocket",
+        "Unfolded 17.13 x 10.43 in; folded 5.7 x 10.43 in",
+        "Beige color checked"
+      ],
+      "is_representative": true,
+      "include_in_case_comparison": true,
+      "availability": "In stock",
+      "source_url": "https://www.amazon.com/dp/B0GDXTQCJW",
+      "source_type": "Amazon product detail page (brand store listing)",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Listed price $18.99; no regular/strikethrough price shown. 4.4/5 stars from 311 ratings at time of check. Amazon prices can change frequently."
+    },
+    {
+      "offer_id": "P02",
+      "competitor_id": "C02",
+      "product_name": "BAGSMART Dazzling Jewelry Organizer",
+      "description": "Quilted binder-style organizer with transparent loose-leaf pages on metal rings; soft lining; 9.6 x 2 x 6.7 in.",
+      "pricing_model": "One-time purchase",
+      "current_price": 22.99,
+      "regular_price": null,
+      "promotional_price": 22.99,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Transparent loose-leaf pages",
+        "Metal binder rings",
+        "Water-resistant polyester",
+        "Multiple compartments"
+      ],
+      "is_representative": true,
+      "include_in_case_comparison": true,
+      "availability": "Partially in stock",
+      "source_url": "https://www.bagsmart.com/products/dazzling-jewelry-organizer",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Shown as $22.99 against a compare-at price of $33.00 ('-30%'). The $33.00 compare-at price is recorded only in notes; there is no evidence it was historically charged, so no regular price is recorded. 3 of 6 colors in stock."
+    },
+    {
+      "offer_id": "P03",
+      "competitor_id": "C02",
+      "product_name": "BAGSMART Peri Folding Jewelry Organizer (Medium)",
+      "description": "Quilted folding organizer with 5 zones: ring buckle band, earring panel, necklace buckled strap, visible zip pouch, long zip pocket.",
+      "pricing_model": "One-time purchase",
+      "current_price": 9.99,
+      "regular_price": null,
+      "promotional_price": 9.99,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "5 compartments",
+        "Necklace buckled strap",
+        "Earring panel",
+        "Ring band"
+      ],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": "Limited stock",
+      "source_url": "https://www.bagsmart.com/products/peri-folding-jewelry-organizer",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Medium variant $9.99 vs. compare-at $37.00; only 1-2 of 8 Medium colors in stock, suggesting clearance. Treated as promotional/clearance."
+    },
+    {
+      "offer_id": "P04",
+      "competitor_id": "C02",
+      "product_name": "BAGSMART Peri Folding Jewelry Organizer (Small)",
+      "description": "Smaller version of the Peri folding organizer.",
+      "pricing_model": "One-time purchase",
+      "current_price": 18.99,
+      "regular_price": null,
+      "promotional_price": 18.99,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "5 compartments",
+        "Necklace buckled strap"
+      ],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": "Out of stock",
+      "source_url": "https://www.bagsmart.com/products/peri-folding-jewelry-organizer",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Small variant $18.99 for most colors ($19.99 Light Pink) vs. compare-at $37.00; all Small variants showed as unavailable when checked."
+    },
+    {
+      "offer_id": "P05",
+      "competitor_id": "C02",
+      "product_name": "BAGSMART Crush Jewelry Organizer",
+      "description": "Compact structured organizer with faux-leather lining, dual earring compartments, elastic necklace slots, ring slots, removable cross divider.",
+      "pricing_model": "One-time purchase",
+      "current_price": 39.99,
+      "regular_price": 39.99,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Elastic necklace slots",
+        "Removable cross divider (custom layout)",
+        "Faux leather lining",
+        "Ring slots"
+      ],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": "In stock",
+      "source_url": "https://www.bagsmart.com/products/crush-jewelry-organizer",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "No compare-at price; listed at regular price. 3 colors in stock."
+    },
+    {
+      "offer_id": "P06",
+      "competitor_id": "C03",
+      "product_name": "BÉIS The Jewelry Case",
+      "description": "Zippered travel jewelry case made from recycled plastic water bottles for necklaces, rings, earrings, and bracelets; W 9.25 x H 2.05 x D 3.23 in; 0.5 lb.",
+      "pricing_model": "One-time purchase",
+      "current_price": 48.0,
+      "regular_price": 48.0,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Recycled poly body and lining",
+        "Faux-leather trim",
+        "Zinc alloy hardware",
+        "Fits in BÉIS Cosmetic Organizer",
+        "4 colors"
+      ],
+      "is_representative": true,
+      "include_in_case_comparison": true,
+      "availability": "In stock",
+      "source_url": "https://beistravel.com/products/the-travel-jewelry-case-in-black",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Shown as 'Regular price $48'. Same price for Black, Beige, Maple, Atlas Pink. Site advertises 45-day returns."
+    },
+    {
+      "offer_id": "P07",
+      "competitor_id": "C04",
+      "product_name": "Mark & Graham Small Travel Jewelry Case",
+      "description": "Square zippered case with cushioned ring storage, compartments for earrings and necklaces, and a mirror; 4.5 x 4.5 x 2.25 in.",
+      "pricing_model": "One-time purchase (optional personalization add-on)",
+      "current_price": 69.0,
+      "regular_price": 69.0,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Mirror",
+        "Cushioned ring rolls",
+        "Pebbled faux leather, linen lining",
+        "Monogram optional (+$17)"
+      ],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": "In stock (some colors out of stock)",
+      "source_url": "https://www.markandgraham.com/products/travel-jewelry-case-square/",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Labeled Best Seller and 'most popular gift'. Personalization extra (see P09)."
+    },
+    {
+      "offer_id": "P08",
+      "competitor_id": "C04",
+      "product_name": "Mark & Graham Medium Travel Jewelry Case",
+      "description": "Rectangular zippered vegan-leather case with removable double-sided pouch, tabs for rings and studs, and looped clips so necklaces do not tangle; 8.25 x 4.75 x 2.5 in.",
+      "pricing_model": "One-time purchase (optional personalization add-on)",
+      "current_price": 99.0,
+      "regular_price": 99.0,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Looped necklace clips",
+        "Removable double-sided pouch",
+        "Ring and stud tabs",
+        "Monogram optional (+$17)"
+      ],
+      "is_representative": true,
+      "include_in_case_comparison": true,
+      "availability": "In stock",
+      "source_url": "https://www.markandgraham.com/products/travel-jewelry-case-rectangle-shadow-print/",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Affirm installment option shown. Selected as representative because its looped necklace clips are closest to the venture's necklace lanes."
+    },
+    {
+      "offer_id": "P09",
+      "competitor_id": "C04",
+      "product_name": "Mark & Graham Personalization (monogram add-on)",
+      "description": "Foil-debossed or printed monogram added to a case.",
+      "pricing_model": "Add-on charge",
+      "current_price": 17.0,
+      "regular_price": 17.0,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per item personalized",
+      "features": [
+        "Foil debossed or printed"
+      ],
+      "is_representative": false,
+      "include_in_case_comparison": false,
+      "availability": null,
+      "source_url": "https://www.markandgraham.com/products/travel-jewelry-case-square/",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Additional charge, not a standalone product; excluded from case price statistics."
+    },
+    {
+      "offer_id": "P10",
+      "competitor_id": "C04",
+      "product_name": "Mark & Graham Travel Jewelry Zipper Case",
+      "description": "Travel jewelry zipper case (details not reviewed).",
+      "pricing_model": "One-time purchase",
+      "current_price": 79.0,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": null,
+      "source_url": "https://www.markandgraham.com/products/travel-jewelry-case-square/",
+      "source_type": "Official site 'Similar Items' listing tile",
+      "date_checked": "2026-10-27",
+      "verification_status": "Partially Verified",
+      "notes": "Price seen only in a product tile on the official site; the product page itself was not opened, so features and regular/sale status were not confirmed."
+    },
+    {
+      "offer_id": "P11",
+      "competitor_id": "C04",
+      "product_name": "Mark & Graham Sanderson Travel Jewelry Organizer",
+      "description": "Travel jewelry organizer from the Sanderson collection (details not reviewed).",
+      "pricing_model": "One-time purchase",
+      "current_price": 29.99,
+      "regular_price": null,
+      "promotional_price": 29.99,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [],
+      "is_representative": false,
+      "include_in_case_comparison": true,
+      "availability": null,
+      "source_url": "https://www.markandgraham.com/products/travel-jewelry-case-square/",
+      "source_type": "Official site 'Similar Items' listing tile",
+      "date_checked": "2026-10-27",
+      "verification_status": "Partially Verified",
+      "notes": "Tile showed SALE $29.99 with $49 shown as the comparison price; product page not opened. $49 recorded only in notes."
+    },
+    {
+      "offer_id": "P12",
+      "competitor_id": "C05",
+      "product_name": "Monos Travel Jewelry Case",
+      "description": "Modular vegan-leather case with removable earring panel (8 holes), removable ring tray, and removable mini pouch; necklaces hang over the earring panel.",
+      "pricing_model": "One-time purchase",
+      "current_price": 95.0,
+      "regular_price": 95.0,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_unit": "per unit",
+      "features": [
+        "Water- and scratch-resistant microfibre vegan leather",
+        "Removable earring panel and ring tray",
+        "Removable mini pouch",
+        "Metal zipper"
+      ],
+      "is_representative": true,
+      "include_in_case_comparison": true,
+      "availability": "Out of stock",
+      "source_url": "https://monos.com/products/travel-jewelry-case",
+      "source_type": "Official brand product page",
+      "date_checked": "2026-10-27",
+      "verification_status": "Verified",
+      "notes": "Both colors (Carbon Black, Ivory) showed 'Notify me when available / currently out of stock' on the check date. Listed price is still shown."
+    }
+  ],
+  "price_statistics": {
+    "representative": {
+      "basis": "One representative product per competitor, current listed USD price, one-time purchase, per unit",
+      "offer_ids": [
+        "P01",
+        "P02",
+        "P06",
+        "P08",
+        "P12"
+      ],
+      "count": 5,
+      "min": 18.99,
+      "max": 99.0,
+      "mean": 56.8,
+      "median": 48.0
+    },
+    "all_case_offers": {
+      "basis": "All researched jewelry-organizer products (excludes the P09 personalization add-on); includes promotional and partially verified prices",
+      "offer_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "count": 11,
+      "min": 9.99,
+      "max": 99.0,
+      "mean": 48.27,
+      "median": 39.99
+    },
+    "competitor_ranges": [
+      {
+        "competitor_id": "C01",
+        "name": "Lolalet",
+        "min": 18.99,
+        "max": 18.99,
+        "offer_count": 1
+      },
+      {
+        "competitor_id": "C02",
+        "name": "BAGSMART",
+        "min": 9.99,
+        "max": 39.99,
+        "offer_count": 4
+      },
+      {
+        "competitor_id": "C03",
+        "name": "BÉIS",
+        "min": 48.0,
+        "max": 48.0,
+        "offer_count": 1
+      },
+      {
+        "competitor_id": "C04",
+        "name": "Mark & Graham",
+        "min": 29.99,
+        "max": 99.0,
+        "offer_count": 4
+      },
+      {
+        "competitor_id": "C05",
+        "name": "Monos",
+        "min": 95.0,
+        "max": 95.0,
+        "offer_count": 1
+      }
+    ],
+    "normalization_note": "All offers are one-time purchases in USD per unit, so no subscription normalization was needed. Shipping, taxes, and coupons were not included."
+  },
+  "preliminary_pricing_recommendation": {
+    "status": "Preliminary - not a final pricing decision",
+    "tentative_range_min": 29.0,
+    "tentative_range_max": 39.0,
+    "currency": "USD",
+    "position": "Above budget marketplace organizers (about $19-$23), below branded mid-market and premium cases ($48-$99)",
+    "most_relevant_benchmarks": [
+      "C01 Lolalet ($18.99) - closest necklace-snap design and the product the founder's customers reviewed",
+      "C02 BAGSMART ($22.99 promo; $39.99 Crush at regular price) - value brand with multi-zone organizers",
+      "C03 BÉIS ($48.00) - branded mid-market ceiling for the same female traveler segment"
+    ],
+    "rationale": [
+      "The venture is an all-in-one organizer (necklaces, bracelets, earrings, hoops/bangles) with whole-chain necklace support, offering more than the necklace-only Lolalet at $18.99.",
+      "Durability-tested closures address the most cited defect in the founder's review sample (7 of 80 reviews reported faulty snaps), which may justify a modest premium over budget options if demonstrated.",
+      "As an unknown brand without proof of performance, pricing at or above BÉIS ($48) or the premium tier ($95-$99) is unlikely to be supported; simulated focus-group feedback also flagged switching from cheaper alternatives.",
+      "The $29-$39 band sits near BAGSMART's regular-priced Crush ($39.99) and the gap between budget and branded cases."
+    ],
+    "value_proposition_to_justify": "Visible proof of tangle prevention and closure durability (side-by-side demo vs. a basic pouch), whole-chain necklace support for long necklaces, and room for every jewelry type.",
+    "optional_test": "STRATEGIC INTERPRETATION: test a personalization or gift-packaging add-on, using Mark & Graham's $17 monogram fee as a reference point, rather than raising the base price.",
+    "uncertainties": [
+      "Unit cost, shipping cost, and margins are unknown (future phases).",
+      "Actual willingness to pay has not been measured.",
+      "Competitor prices change often; several observed prices were promotional.",
+      "Marketplace fees would differ if sold on Amazon."
+    ]
+  },
+  "research_limitations": [
+    "Prices were checked on a single date (2026-10-27) and may change; Amazon and BAGSMART prices in particular fluctuate.",
+    "Compare-at/strikethrough prices (BAGSMART $33.00 and $37.00; Mark & Graham $49) were not treated as historical regular prices.",
+    "Shipping costs, free-shipping thresholds, taxes, and coupon codes were not included in comparisons.",
+    "Two Mark & Graham offers (P10, P11) were observed only in listing tiles and are Partially Verified.",
+    "Monos Travel Jewelry Case was out of stock when checked; its listed price may not reflect current availability.",
+    "Lolalet's only confirmed sales channel is Amazon; no independent brand site was verified.",
+    "The venture's own price, materials, and dimensions are not yet set, so feature comparisons are based on the concept description.",
+    "The competitor set is a purposeful sample of 5 brands, not the full market; many unbranded Amazon organizers and basic pouches also compete.",
+    "UK-based Stackers and CALPAK were considered; Stackers' default storefront showed GBP pricing and no CALPAK jewelry case was found on its current U.S. site, so neither was included."
+  ]
+}

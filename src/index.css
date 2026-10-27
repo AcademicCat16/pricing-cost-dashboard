@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+  --color-ink-950: #07080c;
+  --color-ink-900: #0b0d12;
+  --color-ink-850: #0f1218;
+  --color-ink-800: #12151d;
+  --color-ink-700: #1a1e28;
+  --color-ink-600: #252a36;
+  --color-ink-500: #343a48;
+  --color-mist-400: #8b93a7;
+  --color-mist-300: #aab1c2;
+  --color-mist-200: #cfd4df;
+  --color-mist-100: #e9ecf2;
+  --color-accent-500: #7c8cff;
+  --color-accent-400: #98a4ff;
+  --color-venture: #facc15;
+  --color-rec: #2dd4bf;
+}
+
+html { scroll-behavior: smooth; color-scheme: dark; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(124, 140, 255, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(45, 212, 191, 0.06), transparent 60%),
+    var(--color-ink-900);
+  color: var(--color-mist-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01", "tnum";
+}
+
+.panel {
+  background: linear-gradient(180deg, rgba(26, 30, 40, 0.72), rgba(18, 21, 29, 0.72));
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 20px 40px -24px rgba(0, 0, 0, 0.6);
+}
+.panel-hover { transition: border-color .2s, transform .2s, box-shadow .2s; }
+.panel-hover:hover { border-color: rgba(152, 164, 255, 0.28); box-shadow: 0 1px 0 rgba(255,255,255,.05) inset, 0 24px 48px -24px rgba(0,0,0,.75); }
+
+.fade-in { animation: fadeIn .45s ease both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .fade-in { animation: none; } html { scroll-behavior: auto; } }
+
+:focus-visible { outline: 2px solid var(--color-accent-400); outline-offset: 2px; border-radius: 6px; }
+
+/* Big price slider */
+.price-slider { -webkit-appearance: none; appearance: none; width: 100%; height: 44px; background: transparent; cursor: pointer; }
+.price-slider::-webkit-slider-runnable-track { height: 8px; border-radius: 999px; background: transparent; }
+.price-slider::-moz-range-track { height: 8px; border-radius: 999px; background: transparent; }
+.price-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 26px; height: 26px; margin-top: -9px; border-radius: 50%;
+  background: var(--color-venture); border: 4px solid #0b0d12; box-shadow: 0 0 0 2px var(--color-venture), 0 0 24px rgba(250, 204, 21, .55);
+  transition: transform .15s;
+}
+.price-slider::-moz-range-thumb {
+  width: 20px; height: 20px; border-radius: 50%; background: var(--color-venture); border: 4px solid #0b0d12;
+  box-shadow: 0 0 0 2px var(--color-venture), 0 0 24px rgba(250, 204, 21, .55);
+}
+.price-slider:active::-webkit-slider-thumb { transform: scale(1.12); }
+
+/* Recharts polish */
+.recharts-cartesian-axis-tick-value { fill: var(--color-mist-400); font-size: 12px; }
+.recharts-tooltip-cursor { fill: rgba(255, 255, 255, 0.04); }
+
+/* thin scrollbars */
+* { scrollbar-width: thin; scrollbar-color: #343a48 transparent; }
+
+/* Cost sliders */
+.cost-slider { -webkit-appearance: none; appearance: none; width: 100%; height: 28px; background: transparent; cursor: pointer; position: relative; z-index: 2; }
+.cost-slider::-webkit-slider-runnable-track { height: 6px; background: transparent; }
+.cost-slider::-moz-range-track { height: 6px; background: transparent; }
+.cost-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; margin-top: -6px; border-radius: 50%; background: #e9ecf2; border: 3px solid #7c8cff; box-shadow: 0 0 0 4px rgba(124,140,255,.18); }
+.cost-slider::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: #e9ecf2; border: 3px solid #7c8cff; }
+.cost-slider:disabled { cursor: not-allowed; opacity: .4; }
+input[type=number]::-webkit-inner-spin-button { opacity: .4; }
+@media print { aside, header { display: none !important; } }
+
+/* Decorative glows sit outside panel bounds. `clip` hides them like `hidden` but can never be scrolled,
+   so clicking or focusing a control can't shift the panel's content sideways. */
+.panel.overflow-hidden, .overflow-hidden.rounded-2xl { overflow: clip; }
