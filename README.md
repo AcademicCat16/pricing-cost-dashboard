@@ -2,7 +2,7 @@
 
 An interactive financial laboratory for **Jewelry / Journey** (working concept name), a travel jewelry organizer venture. You can explore every cost of running the business, set prices and expected sales, check break-even and scenarios, compare prices with the researched competitors, evaluate the decision, and then **confirm** it and download a **Pricing Decision Report** (Word) plus a **structured JSON handoff** for Mission 4.
 
-**Live laboratory:** https://academiccat16.github.io/venture-pricing-laboratory/
+**Live laboratory:** https://academiccat16.github.io/pricing-cost-dashboard/
 
 Everything runs in the browser. There is no backend, login, API key or paid service.
 
@@ -90,7 +90,7 @@ Work is saved automatically in this browser (localStorage). It is lost if browse
 npm install
 npm run dev            # development server
 npm run build          # production build (dist/)
-npm run preview        # http://localhost:4174/venture-pricing-laboratory/
+npm run preview        # http://localhost:4174/pricing-cost-dashboard/
 npm run test:unit      # 48 independent math checks (Node 22.6+)
 npm run test:e2e       # 71 browser checks incl. DOCX/JSON validation (needs the preview server, Chrome/Edge, Python + python-docx)
 npm run deploy         # build + publish to the gh-pages branch

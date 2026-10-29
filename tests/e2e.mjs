@@ -2,14 +2,14 @@
  * End-to-end test in a real Chrome/Edge browser (playwright-core, no browser download).
  * Expected numbers were computed by hand from the Typical cost catalog (see tests/finance.test.ts).
  * Usage: npm run build && npm run preview   then   node tests/e2e.mjs
- *        BASE_URL=https://academiccat16.github.io/venture-pricing-laboratory/ node tests/e2e.mjs
+ *        BASE_URL=https://academiccat16.github.io/pricing-cost-dashboard/ node tests/e2e.mjs
  */
 import { chromium } from "playwright-core";
 import { existsSync, mkdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 
-const BASE = process.env.BASE_URL ?? "http://localhost:4174/venture-pricing-laboratory/";
+const BASE = process.env.BASE_URL ?? "http://localhost:4174/pricing-cost-dashboard/";
 const CHROME = process.env.CHROME_PATH ?? ["C:/Program Files/Google/Chrome/Application/chrome.exe", "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "/usr/bin/google-chrome"].find((p) => existsSync(p));
 const PY = process.env.PYTHON ?? (existsSync("C:/Users/kapty/anaconda3/python.exe") ? "C:/Users/kapty/anaconda3/python.exe" : "python3");
 const dir = (d) => { const u = new URL(d, import.meta.url); mkdirSync(u, { recursive: true }); return u; };
